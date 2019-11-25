@@ -6,7 +6,7 @@ Repository for Illumio Coding Challenge
 
 # Different Approaches
   - Approach 1: Creating HashMap/HashSet which will store all the Rules. It can fetch the rule in O(1). HashMap can be organized in several ways to support this. For Hashset, every rule will be an element in the set. This can be easily implemented in Java or python. However, for storing large dataset (500k - 1M), this approach will take huge memory.
-  <br>
+  
   - Approach 2: Using SQLite to store rules. The firewall table will store the data from csv in appropriate format. In python, SQLite3 can be implemented two ways; by storing data in memory or storing data in storage(disk). For huge dataset storing on disk can be the trade off which can be considered.
 
 # Approach using SQLite
